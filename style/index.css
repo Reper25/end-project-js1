@@ -1,4 +1,10 @@
+body{
+    background-color: #d4af37;
+}
 .tired{
     background-image: url(https://i.postimg.cc/636CKhyw/peakpx.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 90vh;
+    position: sticky;
 }

@@ -12,29 +12,41 @@
 </head>
 <body>
     <header>
-        <nav class="navbar bg-dark">
-            <div class="container">
-              <a class="navbar-brand" href="#">
-                <img src="https://i.postimg.cc/sXnHCxf6/12bu25.jpg" alt="Bootstrap" class="rounded-circle" width="30" height="30">
-              </a>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="/index.html">
+          <img src="https://i.postimg.cc/sXnHCxf6/12bu25.jpg" alt="Bootstrap" class="rounded-circle" width="30" height="30">
+        </a>
+            <div class="collapse navbar-collapse justify-content-center">
+                <div class="navbar-nav">
+                    <a href="/index.html" class="nav-item nav-link active">Home</a>
+                    <a href="about.html" class="nav-item nav-link">About</a>
+                    <a href="product.html" class="nav-item nav-link">Products</a>
+                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    <a href="admin.html" class="nav-item nav-link">Admin</a>
+                </div>
             </div>
-          </nav>
+            <div class="justify-content-end">
+              <a href="cart.html"><i class="fa-solid fa-cart-shopping" style="color: #c9c9c9;"></i></a>
+            </div>
+        </div>
+    </nav>
     </header>
     <main>
-        <h1 class="text-white m-4">Contact</h1>
+        <h1 class="text-black text-center ">Contact</h1>
     <p></p>
+    <br>
     <form
   action="https://formspree.io/f/xgebrryz"
   method="POST">
     <div class="col-md-4 m-auto">
-        <div class="form-floating animate__animated animate__zoomIn">
+        <div class="form-floating">
           <input type="name" name="name" class="form-control" id="floatingInputGrid" placeholder="Name" >
           <label for="floatingInputGrid">Enter Your Name</label>
         </div>
       </div>
      <p></p>
 
-      <div class="col-md-4 m-auto animate__animated animate__zoomIn">
+      <div class="col-md-4 m-auto">
         <div class="form-floating">
           <input type="email" name="email" class="form-control" id="floatingInputGrid" placeholder="laeeq.majal@gmail.com" name="email" required >
           <label for="floatingInputGrid">Email address</label>
@@ -42,19 +54,56 @@
       </div>
     <p></p>
 
-      <div class="col-md-4 m-auto animate__animated animate__zoomIn">
+      <div class="col-md-4 m-auto">
         <div class="form-floating">
             <textarea name="message" class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px" required></textarea>
           <label for="floatingTextarea2">Comments</label>
         </div>
       </div>
     <p></p>
-      <div class="col-md-4 m-auto animate__animated animate__zoomIn">
-        <button type="submit" class="btn btncolor mb-3">Submit</button>
+      <div class="col-md-4 m-auto">
+        <button type="submit" class="btn btn-primary mb-3">Submit</button>
       </div>
 
     </div>
 </form>
     </main>
+    <footer class="bg-dark text-center text-white fixed-bottom ">
+      <!-- Grid container -->
+      <div class="container p-3 ">
+        <!-- Section: Social media -->
+        <section>
+          <!-- Facebook -->
+          <a class="btn btn-outline-light btn-floating m-1" target="_blank" href="https://www.facebook.com/" role="button"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+    
+          <!-- Twitter -->
+          <a class="btn btn-outline-light btn-floating m-1" target="_blank" href="https://twitter.com/" role="button"
+            ><i class="fab fa-twitter"></i
+          ></a>
+    
+          <!-- Instagram -->
+          <a class="btn btn-outline-light btn-floating m-1" target="_blank" href="https://www.instagram.com/laeeqmajal25/" role="button"
+            ><i class="fab fa-instagram"></i
+          ></a>
+    
+          <!-- Linkedin -->
+          <a class="btn btn-outline-light btn-floating m-1" target="_blank" href="https://za.linkedin.com/" role="button"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+    
+          <!-- Github -->
+          <a class="btn btn-outline-light btn-floating m-1" target="_blank" href="https://github.com/Reper25" role="button"
+            ><i class="fab fa-github"></i
+          ></a>
+        </section>
+        <!-- Section: Social media -->
+      </div>
+      <!-- Grid container -->
+    
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://kit.fontawesome.com/95273b878a.js" crossorigin="anonymous"></script>
 </body>
 </html>
