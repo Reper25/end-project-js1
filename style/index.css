@@ -6,5 +6,11 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     height: 90vh;
-    position: sticky;
+}
+.btn-tc{
+  background: #101010;
+}
+.btn-tc:hover{
+  background: #d4af37;
+  color: #000000;
 }
