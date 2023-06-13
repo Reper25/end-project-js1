@@ -5,7 +5,8 @@ body{
     background-image: url(https://i.postimg.cc/636CKhyw/peakpx.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 90vh;
+    height: 91vh;
+    background-attachment: fixed;
 }
 .btn-tc{
   background: #101010;
